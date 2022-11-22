@@ -13,6 +13,10 @@
 		9CB714362927056C00093A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB714342927056C00093A59 /* Main.storyboard */; };
 		9CB714382927056D00093A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB714372927056D00093A59 /* Assets.xcassets */; };
 		9CB7143B2927056D00093A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB714392927056D00093A59 /* LaunchScreen.storyboard */; };
+		9CB714432927107500093A59 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB714422927107500093A59 /* Music.swift */; };
+		9CB7144A29271D8500093A59 /* 家常音樂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CB7144729271D8500093A59 /* 家常音樂.mp3 */; };
+		9CB7144C29271D8500093A59 /* 台灣的心跳聲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CB7144929271D8500093A59 /* 台灣的心跳聲.mp3 */; };
+		9CB714542927464C00093A59 /* 低電量.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CB714532927464C00093A59 /* 低電量.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9CB714372927056D00093A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB7143A2927056D00093A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB7143C2927056D00093A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB714422927107500093A59 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		9CB7144729271D8500093A59 /* 家常音樂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "家常音樂.mp3"; sourceTree = "<group>"; };
+		9CB7144929271D8500093A59 /* 台灣的心跳聲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "台灣的心跳聲.mp3"; sourceTree = "<group>"; };
+		9CB714532927464C00093A59 /* 低電量.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "低電量.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				9CB714302927056C00093A59 /* SceneDelegate.swift */,
 				9CB714322927056C00093A59 /* ViewController.swift */,
 				9CB714342927056C00093A59 /* Main.storyboard */,
+				9CB714422927107500093A59 /* Music.swift */,
 				9CB714372927056D00093A59 /* Assets.xcassets */,
 				9CB714392927056D00093A59 /* LaunchScreen.storyboard */,
 				9CB7143C2927056D00093A59 /* Info.plist */,
+				9CB7144929271D8500093A59 /* 台灣的心跳聲.mp3 */,
+				9CB7144729271D8500093A59 /* 家常音樂.mp3 */,
+				9CB714532927464C00093A59 /* 低電量.mp3 */,
 			);
 			path = musicApp;
 			sourceTree = "<group>";
@@ -125,7 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB7144A29271D8500093A59 /* 家常音樂.mp3 in Resources */,
+				9CB7144C29271D8500093A59 /* 台灣的心跳聲.mp3 in Resources */,
 				9CB7143B2927056D00093A59 /* LaunchScreen.storyboard in Resources */,
+				9CB714542927464C00093A59 /* 低電量.mp3 in Resources */,
 				9CB714382927056D00093A59 /* Assets.xcassets in Resources */,
 				9CB714362927056C00093A59 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB714332927056C00093A59 /* ViewController.swift in Sources */,
+				9CB714432927107500093A59 /* Music.swift in Sources */,
 				9CB7142F2927056C00093A59 /* AppDelegate.swift in Sources */,
 				9CB714312927056C00093A59 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF25GHLZV2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = musicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF25GHLZV2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = musicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +340,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
